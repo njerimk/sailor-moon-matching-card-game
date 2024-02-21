@@ -1,0 +1,182 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 20px;
+}
+
+.start-button {
+  background-color: pink;
+  color: white;
+  border-color: white;
+  border-radius: 25px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 54px;
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+   min-width: 50px;  
+   max-width: 35rem; 
+}
+
+nav ul {
+  list-style-type: none;
+  padding-bottom: 80px;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 0.5em;
+  margin-bottom: 50px;
+}
+
+nav ul li a {
+  padding: 0.25em 1em;
+  text-decoration: none;
+  background-color: pink;
+  color: white;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: pink;
+  background-color: white;
+  font-weight: bold;
+}
+.city-lights{
+  z-index: 5;
+}
+
+.card-deck {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 20px;
+  max-width: 50%;
+  margin-left: 25%;
+  z-index: 1;
+}
+
+.card {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 100%;
+  height: 25%;
+  overflow: 10px;
+  border-radius: 25px;
+  margin: 10px;
+  width: 25%
+}
+
+.card img {
+  margin-top: 8px;
+  display: block;
+  border-radius: 25px;
+  width: 80%;
+}
+
+#card-img-front {
+  height: 438px;
+  object-fit: cover;
+  object-position: 45% 70%;
+  width: 100%;
+}
+
+.timer {
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.timer-head {
+  font-family: "alarm clock";
+}
+.endgame {
+  font-family: 'pixel'
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.smooth {
+  transition: .3s cubic-bezier(0.3, 0, 0.4, 1) opacity;
+  opacity: 0;
+}
+
+.smooth.loaded {
+  opacity: 1;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.score-card {
+  display: inline-block;
+  padding: 180px;
+  margin-bottom: -200px;
+  margin-left: -100px;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 120%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
