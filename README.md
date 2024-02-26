@@ -1,6 +1,6 @@
 # Sailor Senshi Matching Cards
 
-![alt text](../images/FrontPage.png)
+![alt text](FrontPage.png)
 
 
 ## Available Scripts
