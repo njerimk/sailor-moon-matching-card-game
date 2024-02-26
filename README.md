@@ -1,6 +1,6 @@
 # Sailor Senshi Matching Cards
 
-![alt text](../images/FrontPage.png)
+![alt text](https://github.com/njerimk/sailor-moon-matching-card-game//blob/FrontPage.png?raw=true)
 
 
 ## Available Scripts
