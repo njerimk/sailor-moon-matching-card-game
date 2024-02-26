@@ -1,0 +1,2 @@
+[build.environment]
+  VARIABLE = "npm run build"
