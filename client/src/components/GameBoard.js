@@ -26,14 +26,18 @@ export default function GameBoard() {
 
              setCheckCards((prevCheckCards)=> [...prevCheckCards, card])
            
+        if(checkCards.length === 2){
+          setCheckCards((prevCheckCards)=> [...prevCheckCards, card])
+
+        }
         if(checkCards[0].pair_name === checkCards[1].pair_name){
 
                 let cardPair1 = checkCards[0]
                 let cardPair2 = checkCards[1]
-            console.log("Match found!")
-            setMatched((prevMatched)=>[...prevMatched, cardPair1, cardPair2])
-               
-               
+            console.log("Match found!", matched)
+            setMatched((prevMatched)=>[...prevMatched, checkCards[0], checkCards[1]])
+               console.log(matched)
+              
                 setCheckCards([]);
             }else {
                 console.log("No match.")
@@ -61,14 +65,14 @@ export default function GameBoard() {
                 //2. If false then render the backImg of the cards
     //checkCards, setCheckCards --this is during a gameInSession if the the two cards
 
-  const handleTimerEnd=()=>{
-    console.log('Game Over!')
+  const updateMatchedState=(newMatched)=>{
+    setMatched(newMatched);
   }
 
   return (
     <div>
       <h1>Game Board</h1>
-       <Timer  onTimerEnd={handleTimerEnd} matched={matched}/>
+       <Timer   matched={matched} onCardClick={onCardClick}/>
        <CardDeck data={data} onCardClick={onCardClick} matched={matched} checkCards={checkCards}/>
      
     </div>

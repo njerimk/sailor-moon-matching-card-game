@@ -59,9 +59,8 @@ nav ul li a:focus {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
-  margin-top: 20px;
-  max-width: 50%;
-  margin-left: 25%;
+  max-width: 65%;
+  margin-left: 18%;
   z-index: 1;
 }
 
@@ -77,30 +76,28 @@ nav ul li a:focus {
 }
 
 .card img {
-  margin-top: 8px;
   display: block;
   border-radius: 25px;
   width: 80%;
 }
 
 #card-img-front {
-  height: 438px;
+  height: 428px;
   object-fit: cover;
-  object-position: 45% 70%;
+  object-position: 55% 70%;
   width: 100%;
 }
 
+
+
 .timer {
-  margin-bottom: 20px;
   z-index: 1;
 }
 
 .timer-head {
   font-family: "alarm clock";
 }
-.endgame {
-  font-family: 'pixel'
-}
+
 .popup {
   margin: 70px auto;
   padding: 20px;
@@ -147,11 +144,13 @@ nav ul li a:focus {
   }
 }
 
-.score-card {
+.lose-notif {
   display: inline-block;
-  padding: 180px;
-  margin-bottom: -200px;
-  margin-left: -100px;
+
+}
+
+.win-notif {
+  display: inline-block;
 }
 
 @media screen and (max-width: 800px) {
