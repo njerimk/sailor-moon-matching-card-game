@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Sailor Senshi Matching Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](./images/FrontPage.jpeg)
+
 
 ## Available Scripts
 
