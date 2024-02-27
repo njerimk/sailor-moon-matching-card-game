@@ -34,22 +34,22 @@
         {
         "id": 5,
         "frontImg":"../images/mars.jpeg",
-        "backImg":"../images/backcard.jpeg",
+        "backImg":"/images/backcard.jpeg",
         "flipped": false, 
         "pair_name":"mars" 
         
         },
         {
         "id": 6,
-        "frontImg":"../images/venus.jpeg", 
-        "backImg":"../images/backcard.jpeg",        
+        "frontImg":"images/venus.jpeg", 
+        "backImg":"images/backcard.jpeg",        
         "flipped": false, 
         "pair_name":"venus"
         },
         {
         "id": 7,
         "frontImg":"../images/mercury.jpeg", 
-        "backImg":"../images/backcard.jpeg",        
+        "backImg":"/images/backcard.jpeg",        
         "flipped": false, 
         "pair_name":"mercury"
         },
