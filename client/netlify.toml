@@ -1,4 +1,0 @@
-[build.environment]
-  VARIABLE = "{dir path} react-scnpm run build"
-  [build]
-    command= "npm run build"
