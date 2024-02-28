@@ -1,7 +1,7 @@
 [build]
-  base = "client"
+  base = "/"
   command = "npm run build"
-  publish = "client/build"  # Change this to the actual build output directory
+  publish = "build"  # Change this to the actual build output directory
 
 
 [[redirects]]
